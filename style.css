@@ -64,7 +64,7 @@ li.header{
 
  nav{
      justify-content: space-around;
-     margin-top: 1.5em;
+     margin-top: 2.5%;
      
  }
 
@@ -127,9 +127,8 @@ li img{
 
 img#espaço{
     display: flex;
-    margin-top: -15.5em;
-    margin-left: 30em;
-    margin-bottom: 2.5em;
+    margin-top: -49%;
+    margin-left: 100%;
 
 }
 
@@ -143,9 +142,10 @@ img#bailão{
 }
 
 img#festa-top{
-    margin-bottom: 2.5em;
-    margin-top:-15.5em;
-    margin-left: 30em;
+    display: flex;
+    margin-top: -50%;
+    margin-left: 100%;
+
 }
 div.fotos{
     margin: 1.5em;
@@ -181,7 +181,7 @@ ul.fotos-galeria{
 
 
 img#calendário {
-    width: 100%;
+    width: 95%;
 }
     
    
@@ -214,10 +214,10 @@ div#contatos {
 }
 
 #avaliação-clientes>img{
-    margin-bottom: 2.5em;
-    justify-content: center;
-    margin-left: 3.5em;
-    box-shadow: 1.2em 1.2em 1.2em .5em #7A5F74; 
+    margin-bottom: 15%;
+    display: flex;
+    margin-left: 6.5%;
+   
 }
 
 #foto-1>li>img{
