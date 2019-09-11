@@ -27,6 +27,7 @@ header{
 }
 
  header{
+    width: 100%;
     position: fixed;
     display: flex;
     background-color: #E47A2E;
@@ -44,7 +45,6 @@ hgroup.header{
 ul#nav{
     display: flex;
     justify-content: center;
-    justify-content: space-evenly;
     margin-right: 3.5em;
     
 }
@@ -53,7 +53,8 @@ li.header{
     font-size: 3.5em;
     text-align: center;
     margin-left: .2em;
-    
+    display: flex;
+    justify-content: space-around;
     
 }
  .logo{
@@ -173,7 +174,12 @@ ul.fotos-galeria{
     display: flex;
     flex-direction: column;
     margin: 0;
-} */
+} 
+
+div.teste-final{
+    display: flex;
+    justify-content: center;
+}
 
 /*---------------------------------------------------------------------------------------------------------------
                                                 galeria-fim
@@ -185,7 +191,9 @@ img#calendário {
 }
     
    
-  
+img#avaliação{
+    margin-bottom: 4.5%;
+}  
 
 footer{
     display: flex;

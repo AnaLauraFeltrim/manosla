@@ -18,8 +18,8 @@
                 <nav>
                     <ul>
                         <li><a href="roletop.html">Home</a></li>
-                        <li><a href="#galeria">Galeria</a></li>
-                        <li><a href="#agendamento-de-eventos">Agenda</a></li>
+                        <li><a href="roletop.html#galeria">Galeria</a></li>
+                        <li><a href="roletop.html#agendamento-de-eventos">Agenda</a></li>
                         <li><a href="loginn.html">Usuário</a></li>
                     </ul>
                 </nav>
@@ -28,33 +28,42 @@
 
         <main>
 
-
-            <div class="cara-chega">
-                <label for="email">E-mail</label>
-                <input id="email" type="email">
-            </div>
-
-            <div class="cara-chega">
-                <label for="senha">Senha</label>
-                <input id="senha-der" type="password">
-            </div>
-
-
-            <div id="botoes">
-                <div>
-                    <a href="usuário.html"><input id="entrar" class="maneirão" type="submit" value="Entrar"></a>
+            <div id="logon">
+                <div class="cara-chega">
+                    <label for="email">E-mail</label>
+                    <input id="email" type="email">
                 </div>
-                <br>
-                <div>
-                    <a href="cadastro.html">
-                        <input id="fazer-cadastro" class="maneirão" type="submit" value="Não possuo cadastro">
-                    </a>
-                </div>
-                <br>
-                <div>
-                    <a href="dashboard.html"><input id="adm" class="maneirão" type="submit" value="Adm"></a>
+
+                <div class="cara-chega">
+                    <label for="senha">Senha</label>
+                    <input id="senha-der" type="password">
                 </div>
             </div>
+
+
+
+            <form method="GET" action="usuário.html">
+                <div class="botoes">
+                    <input id="entrar" class="maneirão" type="submit" value="Entrar">
+                </div>
+            </form>
+
+            <br>
+
+            <form method="GET" action="dashboard.html">
+                <div class="botoes">
+                    <input id="adm" class="maneirão" type="submit" value="Adm">
+                </div>
+            </form>
+
+            <br>
+
+            <form method="GET" action="cadastro.html">
+                <div class="botoes">
+                    <input id="fazer-cadastro" class="maneirão" type="submit" value="Não possuo cadastro">
+                </div>
+            </form>
+
 
 
 
